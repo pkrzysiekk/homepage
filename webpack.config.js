@@ -8,6 +8,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    assetModuleFilename: "./src/img/[name][ext]",
     clean: true,
   },
   devtool: "eval-source-map",
@@ -24,6 +25,13 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "./img/[name][ext]",
+        },
       },
     ],
   },
