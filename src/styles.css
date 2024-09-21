@@ -82,23 +82,21 @@ header {
 }
 
 @media (max-width: 900px) and (min-width: 601px) {
-  body {
-  }
   .header-container {
-    display: block; /* Zmienia układ na blokowy */
-    padding: 2% 15%;
+    display: block;
+    padding: 5% 15%;
   }
   .img-container {
-    float: left; /* Obraz będzie po lewej stronie */
-    max-width: 200px; /* Możesz zmniejszyć obraz przy mniejszych ekranach */
+    float: left;
+    max-width: 200px;
     max-height: 300px;
-    margin-right: 1rem; /* Daje miejsce wokół obrazu, aby tekst nie przylegał bezpośrednio */
+    margin: -1rem 0;
     transform: translate(-10%, -10%);
   }
   .header-main {
-    display: block; /* Zmienia układ, aby tekst owinął się wokół obrazu */
+    display: block;
     float: none;
-    margin: 0; /* Usunięcie float, aby tekst wypełniał przestrzeń wokół obrazu */
+    margin: 0;
   }
 }
 @media (max-width: 600px) {
