@@ -14,7 +14,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -33,6 +33,7 @@ header::before {
 header {
   z-index: 0;
   position: relative;
+  padding-bottom: 5%;
 }
 .header-container {
   display: flex;
@@ -64,11 +65,13 @@ header {
 .header-main {
   display: grid;
   background-color: white;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem 1rem 1rem 1rem;
   max-width: 1000px;
+  min-height: 300px;
   align-self: center;
   box-shadow: 0px 9px 45px -19px rgba(66, 68, 90, 1);
+  line-height: 1.5rem;
 }
 .header-desc {
   color: var(--small-text-color);
@@ -92,10 +95,15 @@ main {
 .main-container {
   display: grid;
   justify-content: center;
+  grid-template-columns: repeat(3, minmax(100px, 400px));
+  column-gap: 2rem;
+  row-gap: 3rem;
 }
-.main-container > p {
+.main-container-header {
   font-size: 2rem;
   font-weight: 500;
+  grid-column: 1/4;
+  justify-self: center;
 }
 .card-container {
   display: grid;
@@ -105,13 +113,13 @@ main {
   min-width: 100px;
   min-height: 200px;
   max-width: 400px;
-  font-size: 4rem;
-  text-align: center;
-  flex-wrap: wrap;
+  font-size: 3rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
-  padding: 3rem;
+  padding: 1rem;
   background-color: #9e1d1c;
   color: white;
   font-weight: 400;
