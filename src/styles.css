@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   --bg-color: #0591b2;
+  --header-desc-color: #565656;
 }
 * {
   margin: 0;
@@ -40,7 +41,7 @@ header {
 .img-container {
   min-width: 280px;
   min-height: 300px;
-  max-width: 300px;
+  max-width: 400px;
   max-height: 450px;
   object-fit: cover;
   position: relative;
@@ -61,10 +62,13 @@ header {
   display: grid;
   background-color: white;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 1rem 1rem 1rem 0;
   max-width: 500px;
   align-self: center;
   box-shadow: 0px 9px 45px -19px rgba(66, 68, 90, 1);
+}
+.header-desc {
+  color: #565656;
 }
 
 .icon-container {
@@ -86,6 +90,9 @@ header {
     display: block;
     padding: 5% 15%;
   }
+  .header-desc {
+    padding: 1rem;
+  }
   .img-container {
     float: left;
     max-width: 200px;
@@ -103,8 +110,24 @@ header {
   .header-container {
     flex-direction: column;
     gap: 2rem;
+    max-width: 80%;
+    align-content: center;
+    margin: 6rem;
+  }
+  .header-desc,
+  .header-title {
+    padding: 1rem;
+  }
+  .header-main {
+    justify-self: center;
+  }
+  .header-title {
+    justify-self: center;
   }
   .img-container {
     align-self: center;
+    justify-self: center;
+    max-width: 200px;
+    max-height: 250px;
   }
 }
