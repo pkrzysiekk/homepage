@@ -160,6 +160,13 @@ main {
 }
 footer {
   background-color: var(--bg-color);
+  color: white;
+  margin-top: 4%;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 20% 50%;
+  grid-template-rows: repeat(6, minmax(20px, 80px));
 }
 footer svg {
   max-width: 30px;
