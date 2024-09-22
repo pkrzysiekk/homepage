@@ -10,7 +10,6 @@
 }
 body {
   font-family: "Playfair Display", serif;
-
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -41,13 +40,15 @@ header {
   position: relative;
   margin: 2rem 1rem;
   justify-content: center;
-  max-width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .img-container {
   min-width: 280px;
   min-height: 300px;
   max-width: 400px;
-  max-height: 450px;
+  max-height: 400px;
   object-fit: cover;
   position: relative;
 }
@@ -68,7 +69,7 @@ header {
   background-color: white;
   gap: 2rem;
   padding: 1rem 1rem 1rem 1rem;
-  max-width: 1000px;
+  max-width: 900px;
   min-height: 300px;
   align-self: center;
   box-shadow: 0px 9px 45px -19px rgba(66, 68, 90, 1);
@@ -97,14 +98,17 @@ main {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, minmax(100px, 400px));
-  column-gap: 2rem;
+  column-gap: 2.5rem;
   row-gap: 3rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .main-container-header {
   font-size: 2rem;
   font-weight: 500;
   grid-column: 1/4;
-  justify-self: center;
+  justify-self: start;
 }
 .card-container {
   display: grid;
@@ -114,7 +118,7 @@ main {
   min-width: 100px;
   min-height: 200px;
   max-width: 400px;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 2.5vw, 3rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,10 +158,10 @@ main {
   max-width: 400px;
   color: var(--small-text-color);
 }
-@media (max-width: 900px) and (min-width: 601px) {
+@media (max-width: 1000px) and (min-width: 601px) {
   .header-container {
     display: block;
-    padding: 5% 15%;
+    padding-top: 3%;
   }
   .header-desc {
     padding: 1rem;
@@ -201,9 +205,7 @@ main {
   .header-container {
     flex-direction: column;
     gap: 2rem;
-    max-width: 100%;
     align-content: center;
-    margin: 1rem;
   }
   .header-desc,
   .header-title {
