@@ -363,7 +363,6 @@ footer svg {
   .footer-photo {
     grid-row: 2/6;
     width: fit-content;
-    max-width: 350px;
     height: fit-content;
   }
 }
