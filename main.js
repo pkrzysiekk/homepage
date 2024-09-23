@@ -116,17 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _img_author_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/author.jpg */ \"./src/img/author.jpg\");\n/* harmony import */ var _img_author_footer_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/author-footer.jpg */ \"./src/img/author-footer.jpg\");\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFzQjtBQUNxQjtBQUNRIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vd2VicGFjay10ZW1wbGF0ZS8uL3NyYy9pbmRleC5qcz9iNjM1Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vc3R5bGVzLmNzc1wiO1xuaW1wb3J0IGF1dGhvclBob3RvIGZyb20gXCIuL2ltZy9hdXRob3IuanBnXCI7XG5pbXBvcnQgYXV0aG9yRm9vdGVyIGZyb20gXCIuL2ltZy9hdXRob3ItZm9vdGVyLmpwZ1wiO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
-
-/***/ }),
-
-/***/ "./src/img/author-footer.jpg":
-/*!***********************************!*\
-  !*** ./src/img/author-footer.jpg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "./img/author-footer.jpg";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _img_author_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/author.jpg */ \"./src/img/author.jpg\");\n\n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMiLCJtYXBwaW5ncyI6Ijs7O0FBQXNCO0FBQ3FCO0FBQ0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWJwYWNrLXRlbXBsYXRlLy4vc3JjL2luZGV4LmpzP2I2MzUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi9zdHlsZXMuY3NzXCI7XG5pbXBvcnQgYXV0aG9yUGhvdG8gZnJvbSBcIi4vaW1nL2F1dGhvci5qcGdcIjtcbmltcG9ydCBhdXRob3JGb290ZXIgZnJvbSBcIi4vaW1nL2F1dGhvci5qcGdcIjtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ }),
 
